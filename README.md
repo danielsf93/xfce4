@@ -31,3 +31,10 @@ apt-get install ristretto
 
 
 sudo apt-get purge thunderbird
+
+
+
+
+https://dev.to/alexandrefreire/como-instalar-o-php-7-4-no-ubuntu-463f
+
+https://sempreupdate.com.br/instalar-versoes-diferentes-php-7-2-7-3-7-4-8-0-no-ubuntu/
