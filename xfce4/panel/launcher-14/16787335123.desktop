@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name=FeatherPad
+GenericName=Text Editor
+GenericName[pt]=Editor de texto
+Comment=Lightweight Qt text editor
+Comment[pt]=Editor de texto leve baseado em Qt
+Exec=featherpad %U
+Icon=featherpad
+Terminal=false
+Type=Application
+MimeType=text/plain;
+Categories=Qt;Utility;TextEditor;
+X-KDE-StartupNotify=false;
+Keywords=Text;Editor;Plaintext;
+Actions=new-window;standalone-window;
+X-XFCE-Source=file:///usr/share/applications/featherpad.desktop
+
+[Desktop Action new-window]
+Name=New Window
+Name[pt]=Nova Janela
+Exec=featherpad --win
+
+[Desktop Action standalone-window]
+Name=Standalone Window
+Exec=featherpad --standalone
